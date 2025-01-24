@@ -1,3 +1,8 @@
-export default function FridgeRow(){
-    return(<p></p>)
-}
+export default function FridgeRow({ item }) {
+    return (
+      <p>
+        Voeding: {item.aantal} {item.voeding}  - Gewicht: {item.gewicht} - {item.tijd}
+      </p>
+    );
+  }
+  
